@@ -1,15 +1,15 @@
 # eclambda
 
 eclambda is a set of tools 
-Tools for computing Elliptic Curve interval discrete logarithms using Pollard's lambda algorithm, also known as the kangaroo algorithm.
+Tools for computing elliptic curve interval discrete logarithms using Pollard's lambda algorithm, also known as the kangaroo algorithm.
 
 There are two components, a client and a server. Multiple clients can work on the same problem and send their results to the server.
 
-Limitations/things to improve
+## Limitations/things to improve
 
--Private key interval cannot be spciefied i.e. limited to an interval of [1, 2^n - 1] for an n-bit private key 
--The client stores distinguished points in RAM. They are lost of the program closes before they can be sent to the server.
--There are no options for tuning the server database
+- Private key interval cannot be spciefied i.e. limited to an interval of [1, 2^n - 1] for an n-bit private key 
+- The client stores distinguished points in RAM. They are lost of the program closes before they can be sent to the server.
+- There are no options for tuning the server database
 
 # client program
 
