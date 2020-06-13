@@ -73,8 +73,7 @@ Specify the name of the job. Required.
 Length of the target private key in bits. Required.
 
 `--pubkey PUBKEY`
-The public key encoded in hexadecimal, either compressed or uncompressed. If no public key is given, it is automatically
-generated.
+The public key encoded in hexadecimal, either compressed or uncompressed. If no public key is given, test mode is enabled and a key is automatically generated and displayed.
 
 `--dbits BITS`
 The number of distinguished bits. The default is 18. 
