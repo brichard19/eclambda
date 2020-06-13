@@ -134,6 +134,7 @@ VERSION 1.0 ALPHA
 [2020-06-12.16:15:02] [Info] Initializing gfx900
 [2020-06-12.16:15:02] [Info] Compiling OpenCL kernels...
 [2020-06-12.16:15:06] [Info] Initializing...
+[2020-06-12.16:15:06] [Info] Generating 59,812,724 starting points (7358.4MB)
 ```
 
 The server will report the solution when it finds one
