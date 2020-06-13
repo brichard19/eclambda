@@ -49,10 +49,10 @@ Specify the port to connect on. Default is 5311.
 The server accepts results from the client and stores them in a database. Job progress is written to a text file in the working directory. When
 the solution is found it is also written to a file.
 
---working-dir DIR
+`--working-dir DIR`
 Specify the working directory of the server. Default is the current directory.
 
---port PORT
+`--port PORT`
 Listen for connections on port PORT
 
 
