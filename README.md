@@ -69,8 +69,11 @@ Specify the port to connect on. Default is 5311.
 `--name NAME`
 Specify the name of the job. Required.
 
-`--keylen LEN`
+`--keylen KEYLEN`
 Length of the target private key in bits. Required.
+
+`--start START`
+The lower end of the interval to search. The default is 0 i.e. the beginning of the entire keyspace. The program will search the interval of `[START, START + 2^KEYLEN - 1]`, where `KEYLEN` is specified by `--keylen`.
 
 `--pubkey PUBKEY`
 The public key encoded in hexadecimal, either compressed or uncompressed. If no public key is given, test mode is enabled and a key is automatically generated and displayed.
