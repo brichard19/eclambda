@@ -7,9 +7,10 @@ There are two components, a client and a server. Multiple clients can work on th
 
 ## Limitations/things to improve
 
-- Private key interval cannot be spciefied i.e. limited to an interval of [1, 2^n - 1] for an n-bit private key 
+- ~~Private key interval cannot be spciefied i.e. limited to an interval of [1, 2^n - 1] for an n-bit private key~~ see `--start` option in the `jobsubmit` usage.
 - The client stores distinguished points in RAM. They are lost of the program closes before they can be sent to the server.
 - There are no options for tuning the server database
+- The only supported curve at the moment is `secp256k1` (the Bitcoin curve)
 
 # client program
 
