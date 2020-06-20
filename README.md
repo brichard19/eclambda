@@ -1,7 +1,6 @@
 # eclambda
 
-eclambda is a set of tools 
-Tools for computing elliptic curve interval discrete logarithms using Pollard's lambda algorithm, also known as the kangaroo algorithm.
+eclambda is a set of tools for computing elliptic curve interval discrete logarithms using Pollard's lambda algorithm, also known as the kangaroo algorithm. It is GPU accelerated using OpenCL.
 
 There are two components, a client and a server. Multiple clients can work on the same problem and send their results to the server.
 
